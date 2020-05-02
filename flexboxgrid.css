@@ -56,6 +56,19 @@
   flex-direction: row-reverse;
 }
 
+.container-fluid > .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container-fluid > .row > div:first-child {
+  padding-left: 0px;
+}
+
+.container-fluid > .row > div:last-child {
+  padding-right: 0px;
+}
+
 .col.reverse {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
