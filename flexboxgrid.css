@@ -27,8 +27,8 @@
 }
 
 .container {
-  padding-right: 16px; /* 1rem */
-  padding-left: 16px;
+  padding-right: 36px; /* 1rem */
+  padding-left: 36px;
 }
 
 .row {
@@ -45,8 +45,6 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -5px;
-  margin-left: -5px;
 }
 
 .row.reverse {
@@ -309,10 +307,6 @@
     padding-left: 80px;
   }
 
-  .row {
-    margin-right: -16px; /* 1rem */
-    margin-left: -16px;
-  }
 
   .col-sm,
   .col-sm-1,
@@ -547,11 +541,6 @@
     padding-left: 138px;
   }
 
-  .row {
-    margin-right: -16px; /* 1rem */
-    margin-left: -16px;
-  }
-
   .col-md,
   .col-md-1,
   .col-md-2,
@@ -783,11 +772,6 @@
   .container {
     padding-left: 140px;
     padding-right: 140px;
-  }
-
-  .row {
-    margin-right: -16px; /* 1rem */
-    margin-left: -16px;
   }
 
   .col-lg,
